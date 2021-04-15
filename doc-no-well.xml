@@ -1,0 +1,14 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<docu>
+    <element>
+        <figlio>    <!-- 2) aggiungo figlio-->
+        </figlio>
+    </element>
+    <nowell>
+        <over>
+        </over>     <!-- 1) correggo l'overlapping-->
+        <sibling>   <!-- 3) aggiungo sibling-->
+        </sibling>
+    </nowell>       <!-- 1) correggo uniformando i case-->
+</docu>
