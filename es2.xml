@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<noNested>
+    <nested>
+        questo elemento è annidato correttamente
+    </nested>
+
+    <noGood> <!-- fenomeno di overlapping -->
+
+        <error>
+            qui ci sono più gerarchie
+    </noGood>
+        </error> <!-- fenomeno di overlapping -->
+
+</noNested> 
