@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "./es3.dtd">
+
+<TEI> 
+    <header></header>
+    <facsimile></facsimile>
+    <text></text>
+</TEI>
+<!-- così scritto è well formed ma non possiamo dire se sia
+conforme a determinate regole -->
