@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Due lettere di Vincent Van Gogh a Theo Van Gogh</title>
+                <respStmt>
+                    <resp>Codificato da</resp>
+                    <persName>Valentina Galli</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Angelo M. Del Grosso</publisher>
+                <pubPlace>Pisa, Italia</pubPlace>
+                <date when="2021">Aprile 2021</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Lettere a Theo, a cura di Massimo Cescon con un saggio introduttivo di Karl Jaspers</bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text n="1">
+                <body>
+                    <div n="1" type="lettera">
+                        <opener>
+                            <dateLine>
+                                <name type="place">Parigi</name>
+                                <date>17 settembre 1875</date>
+                            </dateLine>
+                            <salute>Caro Theo,</salute>
+                        </opener>
+                        <p>essere sensibili, anche profondamente, alle bellezze della natura
+                        non significa essere religiosi, sebbene io ritenga che le due cose siano
+                        strettamente connesse l’una all’altra. Quasi tutti sentono la natura –
+                        chi più, chi meno – ma pochi sentono che Dio è spirito e che chiunque
+                        Lo adori deve adorarLo in spirito e in verità.
+                        I nostri genitori appartengono a quei pochi. E anche zio Vincent, credo.</p>
+                        <p>È scritto: <quote>«Questo mondo passa con tutti i suoi splendori»</quote>. 
+                        Ma si parla anche di <quote>«quella buona parte, che non ci verrà portata via»</quote> e di  
+                        <quote>«una sorgente d’acqua che porta alla vita eterna»</quote>. Preghiamo quindi di poter 
+                        diventare ricchi in Dio. Ma non cercare di analizzare troppo queste cose – poco per volta 
+                        ti appariranno più chiare – e fai come ti ho consigliato. Chiediamo che il nostro compito 
+                        nella vita sia quello di diventare i poveri nel regno di Dio, i servi di Dio. Ne siamo 
+                        ancora lontani; preghiamo affinché il nostro sguardo diventi chiaro, e allora il nostro 
+                        intero corpo irradierà luce.</p>
+                        <closer>
+                            <salute>Saluti ai Roos e a chiunque chieda di me</salute>
+                            <signed>tuo affezionato fratello, <name>Vincent</name></signed>
+                        </closer>
+                    </div>
+                </body>
+                <back>
+                    <p>Lo stesso è vero del senso per l’arte. Non abbandonartici 
+                    completamente. Conserva ad ogni costo l’amore per il tuo lavoro e 
+                    il rispetto per il signor Tersteeg. 
+                    In seguito, capirai meglio di ora quanto egli lo meriti.</p>
+                    <p>Comunque, non è il caso di esagerare. Hai buon appetito? </p>
+                    <p>Mangia e, soprattutto, non lesinare sul pane. Buona notte, devo dare una 
+                    lucidatina alle mie scarpe per domani.</p>
+                </back>
+            </text>
+            <text n="2">
+                <body>
+                    <div n="2" type="lettera">
+                        <opener>
+                            <dateLine>
+                                <name type="place">Parigi</name>
+                                <date>25 settembre 1875</date>
+                            </dateLine>
+                            <salute>Caro Theo,</salute>
+                        </opener>
+                        <p>il sentiero è stretto e quindi dobbiamo essere prudenti. 
+                        Già sai in qual modo gli altri sono arrivati là  dove noi vogliamo andare: 
+                        prendiamo anche noi quella semplice strada.</p>
+                        <p><foreign xml:lang="la">Ora et labora</foreign>. Compiamo il nostro lavoro giornaliero,
+                        qualunque esso sia, con tutte le nostre forze, fiduciosi che Dio spargerà
+                        i Suoi doni su coloro che Glieli chiedono. E sarà questa la parte che non ci verrà portata via.</p> 
+                        <p><quote>«Sicché se uno è in Cristo, è una creatura nuova; quel che era vecchio 
+                        è sparito, ecco è sorto il nuovo.»</quote></p>
+                        <p>Ho intenzione di distruggere tutti i miei libri: Michelet, ecc. Vorrei che tu facessi altrettanto.</p>
+                        <p>Non vedo l’ora che venga Natale; ma dobbiamo aver pazienza.</p>
+                        <closer>
+                            <salute>Coraggio, figliolo. Saluti a tutti gli amici, e credimi</salute>
+                            <signed>tuo affezionato fratello, <name>Vincent</name></signed>
+                        </closer>
+                    </div>
+                </body>
+                <back>
+                    <p>Manderò il denaro per le cornici il più presto possibile. 
+                    Scrivendo al signor Tersteeg, gli dirò che, al momento, sono piuttosto al verde. 
+                    Ho pregato il nostro cassiere di trattenere ogni mese una parte del mio stipendio, 
+                    poiché avrò bisogno di parecchio denaro prima di Natale per il viaggio, ecc. 
+                    Tuttavia, spero di poter saldare presto il mio debito.</p>
+                </back>
+            </text> 
+        </group>
+    </text>
+</TEI>
