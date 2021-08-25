@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Noto+Serif&display=swap');
+
+body {
+	font-family: 'Noto Serif', serif;
+}
+
+h1, h3, a {
+	text-align: center;
+	color: #ECDFD6;
+	text-shadow: 0.7px 0 0 #000, -0.7px 0 0 #000, 0 0.7px 0 #000, 0 -0.7px 0 #000, 0.7px 0.7px #000, -0.7px -0.7px 0 #000, 0.7px -0.7px 0 #000, -0.7px 0.7px 0 #000;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+h1, h3 {
+	color: #f5efea;
+}
+
+h3 {
+	text-align: left;
+}
+
+strong, b {
+	color: #9c2811; /*color: #7f6d61;*/
+}
+
+p > b {
+	color: black;
+}
+
+a:hover {
+	color: white;
+}
+body > p {
+	text-align: center;
+	color: #7f6d61;
+	font-style: italic;
+	padding-top: 10px;
+	margin-bottom: 0;
+}
+
+button {
+	background-color: transparent;
+	border: solid 1px #7f6d61;
+	border-radius: 12px;
+	font-size: 107%;
+	padding: 10px 8px;
+	box-shadow: 0 7px #999;
+	border-style: solid;
+	font-family: 'Noto Serif', serif;
+}
+button:hover {
+	background-color: #f5efea;
+	cursor: pointer;
+}
+button:active {
+	background-color: transparent;
+	box-shadow: 0 4px #666;
+	transform: translateY(10%);
+}
+
+#cambioPagina {
+	margin-left: 27.5%;
+	margin-top: 2%;
+}
+
+#cambioLingua {
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 2%;
+}
+
+#cambioAbbr {
+	margin-top: 2%;
+}
+
+#tendaGloss, #tendaPers {
+	border: none;
+	box-shadow: none;
+}
+
+#tendaGloss:hover, #tendaPers:hover {
+	background-color: transparent;
+	cursor: pointer;
+}
+
+div#p29, div#p30{
+	font-family: 'Marck Script', cursive;
+	font-size: 20px;
+	letter-spacing: 0.3px;
+}
+
+/*div#p29 strong, div#p30 strong{
+	color: #9c2811;
+}*/
+
+div.fr {
+	padding: 25px;
+}
+
+div#footer {
+	background-color: #f5efea;
+	padding: 0.01%;
+	color: black;
+	text-align: center;
+}
