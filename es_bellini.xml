@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<TEI>
+    <teiHeader>
+        <!--esempio di frammento-->
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <pb facs="#page1" xml:id="page-1"/>
+                <p>
+                <lb facs="#line1" xml:id="line-1"/>vi dissi che <distinct type="archaic">volea</distinct> darvi un cenno sù la malattia sofferta ed ecco: 
+                <lb facs="#line2" xml:id="line-2"/>La principale ragione fù l’aver scritto a <placeName>Venezia</placeName> i <title>Capuleti</title> in 
+                <lb facs="#line3" xml:id="line-3"/><num>26</num>: giorni, <distinct type="archaic">ove</distinct> m’applicava <num>10</num>: ore <damage agent="water">di</damage> seguito nella mattina ed 
+                <lb facs="#line4" xml:id="line-4"/>altre quattro nella sera.</p>
+            </div>
+        </body>
+    </text>
+    <facsimile>
+        <surface xml:id="page1" start="#page-1" ulx="0" uly="0" lrx="2406" lry="3274">
+            <graphic url='LL1.4_frammento.png' width='914px' height='186px' />
+            <zone xml:id="line1" start="#line-1" ulx="43" uly="19" lrx="902" lry="59" />
+            <zone xml:id="line2" start="#line-2" ulx="47" uly="61" lrx="898" lry="95" />
+            <zone xml:id="line3" start="#line-3" ulx="49" uly="95" lrx="903" lry="133" />
+            <zone xml:id="line4" start="#line-4" ulx="52" uly="137" lrx="905" lry="181" />
+        </surface>
+    </facsimile>
+</TEI>
