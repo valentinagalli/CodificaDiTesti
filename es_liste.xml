@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<TEI>
+
+	<!--esempio="nota e puntatori"-->
+	<note n="1">La giustificazione di questo procedimento e altri commenti sull'argomento si trovano nel <ref target="#cap4.4.5">libro di testo [<choice><abbr>BPS1</abbr><expan>Bramanti Pagani Salsa 1</expan></choice>], <choice><abbr>cap.</abbr><expan>capitolo</expan></choice> 4, <choice><abbr>par.</abbr><expan>paragrafo</expan></choice> 4.5</ref></note>
+
+	<!--esempio="lista"-->
+	<list>
+		<head>Lista della spesa:</head>
+			<label>(1)</label>
+			<item>olio</item>
+			<label>(2)</label>
+			<item>uova</item>
+			<label>(3)</label>
+			<item>farina</item>
+			<label>(4)</label>
+			<item>mele</item>
+	</list>
+
+	<!--esempio="tabella"-->
+	<table rows="5" cols="4">
+	    <row>
+	        <cell>utente</cell>
+	        <cell>nome</cell>
+	        <cell>cognome</cell>
+	        <cell>età</cell>
+	    </row>
+	    <row>
+	       	<cell>1</cell>
+	        <cell>mario</cell>
+	        <cell>rossi</cell>
+	        <cell>51</cell>
+	    </row>
+	    <row>
+	        <cell>2</cell>
+	        <cell>luigi</cell>
+	        <cell>bianchi</cell>
+	        <cell>43</cell>
+	    </row>
+	    <row>
+	    	<cell>3</cell>
+	        <cell>francesca</cell>
+	        <cell>lupi</cell>
+	        <cell>25</cell>
+	    </row>
+	    <row>
+	    	<cell>4</cell>
+	        <cell>carla</cell>
+	        <cell>daga</cell>
+	        <cell>37</cell>
+	    </row>
+	</table>
+
+	<!--esempio="glossario"-->
+	<list>
+		<head>Glossario:</head>
+			<label>Allocazione</label>
+			<item>L'allocazione indica la quantità di risorse assegnate ai diversi fattori della produzione</item>
+			<label>Interesse composto</label>
+			<item>L'interesse è calcolato sul capitale iniziale e sugli interessi del prestito del periodo precedente</item>
+			<label>Costi fissi</label>
+			<item>Costi che non cambiano al variare della produzione</item>
+	</list>
+
+	<!--esempio="referring string e name"-->
+	<p>Salutai <rs type="person">sua moglie <name type="person">Maria</name></rs></p>
+
+
+</TEI>

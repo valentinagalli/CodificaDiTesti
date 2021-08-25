@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cartolina della Maestra Carmela</title>
+                <respStmt>
+                    <resp>Codificato da</resp>
+                    <persName>Valentina Galli</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>10 ottobre</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Questo è un esempio di cartolina</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Cari bambini</salute>
+                </opener>
+                <p>vi auguro tanta gioia di apprendere per quest'anno scolastico e mando un grosso bacione ad ognuno di voi!</p>
+                <closer>
+                    <salute>Vi voglio bene</salute>
+                    <signed>la maestra <name>Carmela</name></signed>
+                    <dateLine>
+                        <name type="place">Potenza</name>
+                        <date>10 ottobre</date>
+                    </dateLine>
+                </closer>
+            </div>
+        </body>
+        <back>
+            <p>PER i bambini della Scuola primaria Classe 2C</p>
+            <address>
+                <street>Via di Giura</street>
+                <postCode>85100</postCode>
+                <name type="place">Potenza</name>
+            </address>
+        </back>
+    </text>
+</TEI>
