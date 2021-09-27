@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI version="1.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <!--Header-->
+    <teiHeader> 
+        <!--Descrizione dell'edizione digitale-->
+        <fileDesc> 
+            <titleStmt>
+                <title>BGE Ms. fr. 3951/1.1-3, pagine 29-30: versione digitale</title>
+                <respStmt>
+                    <resp>Conversione TEI P5 a cura di </resp>
+                    <name type="person" xml:id="VPVG">Veronica Pistolesi e Valentina Galli</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>   
+                <edition>Edizione digitale <date when="2021-07">Luglio 2021</date></edition>
+                <respStmt>
+					<resp>Codificato da</resp>
+					<name type="person" ref="#VPVG">Veronica Pistolesi e Valentina Galli</name>
+				</respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability><p>Disponibile solo per fini accademici.</p></availability>
+                <date when="2021-07">Luglio 2021</date>
+            </publicationStmt>
+            <!--Descrizione del manoscritto-->
+            <sourceDesc> 
+                <biblStruct> 
+                    <analytic>  
+                        <title xml:lang="fr" level="m">Trois premières conférences à l'Université (cours d'ouverture, novembre 1891)</title>
+                        <author>
+                            <name xml:id="FDS">
+                                <forename>Ferdinand</forename>
+                                <surname>de Saussure</surname>
+                            </name>
+                        </author>
+                    </analytic>  
+                    <monogr> 
+                        <author>
+                            <name ref="#FDS">
+                                <surname>Ferdinand</surname>
+                                <forename>de Saussure</forename>
+                            </name>
+                        </author> 
+                        <editor xml:id="RE">Rudolf Engler</editor>
+                        <title level="m" xml:lang="fr">Notes de linguistique</title>              
+                        <imprint>
+                            <publisher>O. Harrassowitz</publisher>
+                            <pubPlace>Wiesbaden, Germania</pubPlace>
+                            <date from="1958" to="1974">1958-1974</date>
+                            <biblScope>353 feuillets</biblScope>   
+                        </imprint>                  
+                    </monogr>
+                    <citedRange unit="page" from="29" to="30">pp. 29-30</citedRange>
+                    <ref target="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef/dao/0#id:1601542446?"></ref>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Switzerland</country>
+                        <settlement>Ginevra</settlement>
+                        <institution>Università di Ginevra</institution>
+                        <repository ref="https://archives.bge-geneve.ch/">Biblioteca di Ginevra</repository>
+                        <collection ref="https://archives.bge-geneve.ch/archives/archives/fonds/saussure_ferdinand_de/view:5892/n:89">Archivio Ferdinand de Saussure</collection>
+                        <idno>Ms.fr.3951/1</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>Le pagine sono gli appunti di Ferdinand de Saussurre scritti per le prime tre lezioni del corso "Phonetique du grec et du latin" tenutesi all'Università di Ginevra.</p>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Appunti</objectType>
+                                    <material function="support">Carta</material>
+                                    <p> La carta è color avorio, l'inchiostro utilizzato è nero.</p>
+                                </support>
+                                <extent><measure unit="pages">30 + 15 + 22 pagine + 1 foglietto</measure></extent>
+                                <foliation>Il numero delle pagine è collocato in alto a sinistra, delimitato da una riga obliqua.</foliation>
+                                <condition>Le pagine non presentano alcun tipo di danneggiamento (es. macchie, strappi). Sono invece presenti varie cancellature e aggiunte.</condition>    
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Il testo principale mantiene un margine alla sua sinistra occupato nella pagina 29 da due aggiunte.</p>
+                                </layout>
+                            </layoutDesc> 
+                        </objectDesc>  
+                        <handDesc>
+                            <handNote>
+                                <p>Gli appunti sono stati scritti a mano da Ferdinand de Saussurre.</p>
+                            </handNote>
+                        </handDesc>   
+                    </physDesc>
+                    <additional>
+                        <listBibl>
+                            <bibl type="original text and traslation" xml:id="trad">
+                                <title xml:lang="it" level="u" type="main">Prolusioni all'Università di Ginvera</title>
+                                <title xml:lang="it" level="u" type="sub">Prime tre conferenze</title>
+                                <ref target="https://github.com/angelodel80/corsoCodifica/blob/master/CTaa20-21/progetto-esame/Prolusioni1-new.pdf">Testo originale e traduzione</ref>
+                            </bibl>
+                            <bibl xml:id="notes">
+                                <title level="m" type="main" xml:lang="IT">Lingua e mente sociale</title>
+                                <title level="m" type="sub" xml:lang="IT">Per una teoria delle istituzioni linguistiche a partire da Saussurre e Mead.</title>
+                                <ref target="https://github.com/angelodel80/corsoCodifica/blob/master/CTaa20-21/progetto-esame/Testi%20FdS_IT-Prolusioni%2BLettera%20a%20G.%20Paris%20(E.%20Fadda).pdf">Traduzione italiana con note al testo.</ref>
+                                <author>
+                                    <name xml:id="EF">
+                                        <forename>Emanuele</forename>
+                                        <surname>Fadda</surname>
+                                    </name>
+                                </author>
+                                <editor>Bonanno Editore</editor>
+                                <date when="2006">2006</date>
+                                <biblScope>256 pagine</biblScope> 
+                                <idno type="ISBN">8877962763, 9788877962768</idno>                   
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--Descrizione della codifica-->
+        <encodingDesc> 
+            <p>Image based digital edition.</p>
+            <projectDesc>
+                <p>Il progetto consiste nella codifica digitale image-based delle pagine 29-30 del manoscritto Ms.fr.3951/1 di Ferdinad de Saussurre.</p>
+            </projectDesc>
+        </encodingDesc>
+        <!--Descrizione del testo-->
+        <profileDesc>
+            <langUsage>
+                <language ident="fr">Francese</language>
+            </langUsage>
+            <creation>
+                <date when="1981-11">novembre 1981</date>
+            </creation>
+            <textDesc>
+                <channel mode="ws"></channel> <!--written to be spoken (appunti)-->
+                <constitution type="single"/> <!--a single complete text-->
+                <derivation type="original"/> <!--text is original-->
+                <domain type="education"></domain> <!--categorizes the domain of use-->
+                <factuality type="fact"/> <!--the text is to be regarded as entirely informative or factual (non fiction)-->
+                <interaction type="none"/> <!--no interaction of any kind, e.g. a monologue-->
+                <preparedness type="none"/> <!--spontaneous or unprepared-->
+                <purpose type="inform"/> <!--convey information, educate, etc.-->
+            </textDesc>
+        </profileDesc>     
+    </teiHeader>
+
+<!--TESTO DA CODIFICARE-->
+    <text>
+        <group>
+        	<text type="original text"> <!--TESTO ORIGINALE-->
+        		<body>
+        			<div n="1" type="paragraph">
+        				<pb xml:id="p29"/> <!--PAGINA 29-->
+        				<ab xml:id="per1" n="1" facs="#facsp1" type="pericope">
+        					<lb n="1" break="yes"/>
+        					Je réponds que <choice><abbr>d<am rend="sup">s</am></abbr><expan resp="#BE" cert="high">dans</expan></choice> ce cas l'on joue sur un autre 
+        					<lb n="2" break="yes"/>
+        					<term target="#g1">mot</term> qui est le mot <hi rend="underline"><term target="#g2">langue</term></hi> ; 
+        				</ab>
+        				<ab xml:id="per2" n="2" facs="#facsp2" type="pericope">
+        					en réalité <del rend="overstrike" unit="word" quantity="4" instant="true"><gap reason="cancelled" unit="word" quantity="2"/>
+        					<lb n="3" break="yes"/>
+        					<gap reason="cancelled" unit="word" quantity="2"/></del> la <term target="#g2">langue</term> n'est pas un être défini et 
+        					<lb n="4" break="yes"/>
+        					délimité dans le <term target="#g3">temps</term> ; 
+        				</ab>
+        				<ab xml:id="per3" n="3" facs="#facsp3" type="pericope">
+        					on distingue la <term target="#g2">langue</term> 
+        					<lb n="5" break="yes"/>
+        					française et la <term target="#g2">langue</term> latine, <del rend="overstrike" unit="word" quantity="3" instant="true"><gap reason="cancelled" unit="word" quantity="3"/></del> 
+        					<lb n="6" break="yes"/>
+        					l'allemand moderne et le germain d'<name type="person" ref="#Arminius">Arminius</name> 
+        					<lb n="7" break="yes"/>
+        					comme on <term target="#g4">distingue</term> <gap reason="missing" extent="rest of the line"/> <add place="margin left" instant="false" hand="#FdS" unit="word" quantity="17" rend="side column">et alors on <del rend="overstrike" unit="word" quantity="2" instant="true"><gap reason="cancelled" unit="word" quantity="2"/></del> admet que l'un <choice><abbr>co<am rend="overline">m</am>ence</abbr><expan resp="#BE" cert="high">commence</expan></choice> et que l'autre finit <choice><abbr>qqe</abbr><expan resp="#BE" cert="high">quelque</expan></choice> part ce qui est <term target="#g5 #nota1"><choice><abbr>arbitr<am>.</am></abbr><expan resp="#BE" cert="high">arbitraire</expan></choice></term></add>
+        				</ab>
+        			</div>
+        			<div n="2" type="paragraph"> 
+        				<ab xml:id="per4" n="4" facs="#facsp4" type="pericope">
+        					<lb n="8" break="yes"/>
+        					Toutefois <del rend="overstrike" unit="word" quantity="2" instant="false"><gap reason="cancelled" unit="word" quantity="2"/></del> il y a un côté de cette question 
+        					<lb n="9" break="yes"/>
+        					qui touche à la <term target="#g6">différenciation</term> <term target="#g7">géographique</term> 
+        					<lb n="10" break="yes"/>
+        					des <term target="#g2">langues</term> et que je n'aborde pas.
+        				</ab>
+        			</div>
+        			<div n="3" type="paragraph">
+        			 	<ab xml:id="per5" n="5" facs="#facsp5" type="pericope">
+                            <lb n="11" break="yes"/>
+        			 		Du moment qu'on ne peut faire naître nulle 
+        			 		<lb n="12" break="yes"/>
+        			 		part une <term target="#g2">langue</term>, on demande quel est donc 
+        			 		<lb n="13" break="yes"/>
+        			 		<subst><del rend="overstrike" unit="word" quantity="3" instant="false" seq="1">l'âge de passé</del><add place="supralinear" seq="2">l'âge</add></subst> qu'on assigne à cha<ex resp="#BE" cert="high">cu</ex>n<ex resp="#BE" cert="high">e</ex> d'elles.
+        			 	</ab> 
+        			 	<ab xml:id="per6" n="6" facs="#facsp6" type="pericope">
+        			 		Ici 
+        			 		<lb n="14" break="yes"/>
+        			 		encore il faut s'entendre sur les <term target="#g1">mots</term>, <del rend="overstrike" unit="word" quantity="2" instant="true">le mot</del> 
+                            <lb n="15" break="yes"/>
+                            <add place="margin left" instant="false" hand="#FdS" unit="word" quantity="7" rend="side column">il se fait <subst><del rend="overstrike" unit="char" quantity="2" instant="false" seq="1">un</del><add place="supralinear" seq="2">de</add></subst> <choice><abbr>sing<am>.</am></abbr><expan resp="#BE" cert="high">singulières</expan></choice> <subst><del rend="overstrike" unit="word" quantity="1" instant="false" seq="1"></del> <add place="below" seq="2">confusions</add></subst> du mot</add> 
+        			 		<lb n="16" break="yes"/>
+        			 		<hi rend="underline">vieux</hi> en parlant des <term target="#g2"><choice><abbr>lges</abbr><expan resp="#BE" cert="high">langues</expan></choice></term>.
+        			 	</ab> 
+        			 	<ab xml:id="per7" n="7" facs="#facsp7" type="pericope">
+        			 		Il y a <choice><abbr><am>3</am></abbr><expan resp="#BE" cert="high">trois</expan></choice> manières pour 
+        			 		<lb n="17" break="yes"/>
+        			 		<choice><abbr><am>1</am></abbr><expan resp="#BE" cert="high">un</expan></choice> <choice><abbr>ho<am rend="overline">m</am>e</abbr><expan resp="#BE" cert="high">homme</expan></choice> d'être <choice><abbr><am>+</am></abbr><expan resp="#BE" cert="high">plus</expan></choice> <hi rend="underline">vieux</hi> ou <choice><abbr><am>+</am></abbr><expan resp="#BE" cert="high">plus</expan></choice> <term target="#nota2"><hi rend="underline">anci<ex resp="#BE" cert="high">en</ex></hi></term> qu'un autre. 
+        			 		<lb n="18" break="yes"/>
+                        </ab>
+                        <ab xml:id="per8" n="8" facs="#facsp8" type="pericope">
+        			 		La <choice><abbr><am>1</am><c rend="sup">e</c></abbr><expan resp="#BE" cert="high">première</expan></choice>, qui n'est pas <choice><abbr>tj<am>.</am></abbr><expan resp="#BE" cert="high">toujours</expan></choice> agréable, est d'être né 
+        			 		<lb n="19" break="yes"/>
+        			 		<choice><abbr>avt</abbr><expan resp="#BE" cert="high">avant</expan></choice> lui.
+        			 	</ab>
+        			 	<ab xml:id="per9" n="9" facs="#facsp9" type="pericope">
+        			 		La <choice><abbr><am>2</am><w rend="sup">de</w></abbr><expan resp="#BE" cert="high">seconde</expan></choice>, qui l'est encore moins, est d'être 
+        			 		<lb n="20" break="yes"/>
+        			 		mort <choice><abbr>avt</abbr><expan resp="#BE" cert="high">avant</expan></choice> lui : on <term target="#g8">parle</term> des vieux <add place="above">anci<ex resp="#BE" cert="high">ens</ex></add> camarades qui 
+        			 		<lb n="21" break="yes"/>
+        			 		ne sont plus.
+        			 	</ab> 
+        			 	<ab xml:id="per10" n="10" facs="#facsp10" type="pericope">
+        			 		La <choice><abbr><am>3</am><c rend="sup">e</c></abbr><expan resp="#BE" cert="high">troisième</expan></choice>, qui est la pire, est d'être <choice><abbr>co<am rend="overline">m</am>e</abbr><expan resp="#BE" cert="high">comme</expan></choice> 
+        			 		<lb n="22" break="yes"/>
+        			 		<choice><abbr>ns</abbr><expan resp="#BE" cert="high">nous</expan></choice> disons <choice><abbr>famil<am>.</am></abbr><expan resp="#BE" cert="high">familièrement</expan></choice> <hi rend="underline">moins bien c<ex resp="#BE" cert="high">on</ex>servé</hi> que lui.
+        			 	</ab> 
+        			 	<ab xml:id="per11" n="11" facs="#facsp11" type="pericope">
+        			 		Eh bien, 
+        			 		<lb n="23" break="yes"/>
+        			 		de ces <choice><abbr><am>3</am> man<am>.</am></abbr><expan resp="#BE" cert="high">trois manières</expan></choice>, la <choice><abbr><am>1</am><c rend="sup">e</c></abbr><expan resp="#BE" cert="high">première</expan></choice> n'existe pas <choice><abbr>pr</abbr><expan resp="#BE" cert="high">pour</expan></choice> les <term target="#g2">langues</term>.
+        			 		<lb n="24" break="yes"/>
+        			 		<choice><abbr>T<am rend="place(sup) highlighting(underline)">ts</am></abbr><expan resp="#BE" cert="high">Toutes</expan></choice> les langues se <term target="#g8">parlant</term> à la mêm<ex resp="#BE" cert="high">e</ex> <term target="#g9"><choice><abbr>époq<am>.</am></abbr><expan resp="#BE" cert="high">époque</expan></choice></term> sont de 
+        			 		<lb n="25" break="yes"/>
+        			 		même âge; en ce sens qu'elles remontent à un 
+        			 		<lb n="26" break="yes"/>
+        			 		passé égal.
+        			 	</ab> 
+        			 	<ab xml:id="per12" n="12" facs="#facsp12" type="pericope">
+        			 		Il n'est pas nécessaire de déterminer la 
+        			 		<lb n="27" break="yes"/>
+        			 		long<ex resp="#BE" cert="high">ueu</ex>r de ce passé. Si l'on veut, c'est l'<choice><abbr>orig<am>.</am></abbr><expan resp="#BE" cert="high">origine</expan></choice> Du <term target="#g10">langage</term>, 
+        			 		<lb n="28" break="yes"/>
+        			 		mais sans remonter aux périodes <choice><abbr>inacces<am>.</am></abbr><expan resp="#BE" cert="high">inaccessibles</expan></choice><supplied reason="omitted-in-original" resp="#BE">.</supplied>
+        			 	</ab>
+        			</div>
+        			<div n="4" type="paragraph">
+        				<pb xml:id="p30"/> <!-- PAGINA 30 --> 
+        				<ab xml:id="per13" n="13" facs="#facsp13" type="pericope">
+        					<lb n="29" break="yes"/>
+        					<del rend="overstrike" unit="char" quantity="3" instant="true"><gap reason="cancelled" unit="char" quantity="3"/></del> en s'arrêt<ex resp="#BE" cert="high">an</ex>t à la période accessible, il est 
+        					<lb n="30" break="yes"/>
+        					clair que chaque <term target="#g2">langue</term> <term target="#g11"><choice><abbr>indo-eur<am>.</am></abbr><expan resp="#BE" cert="high">indo-européenne</expan></choice></term> actuelle<ex resp="#BE" cert="high">me</ex>nt 
+        					<lb n="31" break="yes"/>
+        					<term target="#g8">parlée</term> a exacte<ex resp="#BE" cert="high">me</ex>nt le mêm<ex resp="#BE" cert="high">e</ex> âge par rapport 
+        					<lb n="32" break="yes"/>
+        					au temps où se <term target="#g8">parlait</term> l'<term target="#g11 #nota3"><choice><abbr>indo-eur<am>.</am></abbr><expan resp="#BE" cert="high">indo-européen</expan></choice></term> primitif.
+        				</ab> 
+        			</div>
+        			<div n="5" type="paragraph">
+        				<ab xml:id="per14" n="14" facs="#facsp14" type="pericope">
+        					<lb n="33" break="yes"/>
+        					<del rend="overstrike" unit="word" atLeast="9" instant="true"><gap reason="cancelled" unit="word" atLeast="8"/>
+        					<gap reason="cancelled" unit="word" quantity="1"/></del>Je ne m'arrête pas <del rend="overstrike" unit="word" quantity="2" instant="true">à la</del> au <choice><abbr><am>2</am><c rend="sup">d</c></abbr><expan resp="#BE" cert="high">second</expan></choice> sens 
+        					<lb n="34" break="yes"/>
+        					où <choice><abbr><am>1</am></abbr><expan resp="#BE" cert="high">une</expan></choice> <term target="#g2">l<ex resp="#BE" cert="high">an</ex>gue</term> serait <choice><abbr><am>+</am></abbr><expan resp="#BE" cert="high">plus</expan></choice> <choice><sic>veille</sic><corr resp="#VPVG" cert="high">vieille</corr></choice><!-- vigilia-vecchio--> qu'une autre, <del rend="overstrike" unit="char" quantity="2" instant="true">en</del> 
+        					<lb n="35" break="yes"/>
+        					<del rend="overtyped" unit="char" atLeast="1" instant="true">ce</del>et qui n'a pas <choice><abbr>g<am rend="place(sup) highlighting(underline)">de</am></abbr><expan resp="#BE" cert="high">grande</expan></choice> importance ; il y a des 
+        					<lb n="36" break="yes"/>
+        					<term target="#g2">langues</term> mortes et par <choice><abbr>conseqt</abbr><expan resp="#BE" cert="high">conséquent</expan></choice> qu'on peut appeler 
+        					<lb n="37" break="yes"/>
+        					<choice><abbr><hi rend="underline">anci</hi>e<am rend="overline">n</am></abbr><expan resp="#BE" cert="high">anciennes</expan></choice>, par <choice><abbr>ex<am>.</am></abbr><expan resp="#BE" cert="high">exemple</expan></choice> le gaulois, le phénicien, 
+        					<lb n="38" break="yes"/>
+        					<choice><abbr>etc<am>.</am></abbr><expan resp="#VPVG" cert="high">et cetera</expan></choice> qui ont été extirpés.
+        				</ab>
+        			</div>
+        			<div n="6" type="paragraph">
+        				<ab xml:id="per15" n="15" facs="#facsp15" type="pericope">
+        					<lb n="39" break="yes"/>
+        					Enfin <del rend="overstrike" unit="char" atLeast="2" instant="true">les</del> il est à remarquer que <choice><abbr>d<am rend="sup">s</am></abbr><expan resp="#BE" cert="high">dans</expan></choice> le <choice><abbr><am>3</am><c rend="sup">e</c></abbr><expan resp="#BE" cert="high">troisième</expan></choice> 
+        					<lb n="40" break="yes"/>
+        					sens on peut dire qu'<choice><abbr><am>1</am></abbr><expan resp="#BE" cert="high">une</expan></choice> <term target="#g2">l<ex resp="#BE" cert="high">an</ex>gue</term> est <choice><abbr><am>+</am></abbr><expan resp="#BE" cert="high">plus</expan></choice> vieille 
+        					<lb n="41" break="yes"/>
+        					qu'une autre, <del rend="overstrike" unit="word" atLeast="3" instant="true"><gap reason="cancelled" unit="word" atLeast="3"/></del> mais chose as<ex resp="#VPVG" cert="high">s</ex>ez 
+        					<lb n="42" break="yes"/>
+        					bizarre, <choice><abbr>pr</abbr><expan resp="#BE" cert="high">pour</expan></choice> les <term target="#g2">langues</term> c'est le contraire <add place="supralinear">de ce qui se passe</add>, c'est-à-<lb n="43" break="no"/>dire que ce sont les <term target="#g2">l<ex resp="#BE" cert="high">an</ex>gues</term> les mieux conservées 
+        					<lb n="44" break="yes"/>
+        					qu'on appelle vieilles.
+        				</ab> 
+        				<ab xml:id="per16" n="16" facs="#facsp16" type="pericope">
+        					<choice><abbr>D<am rend="sup">s</am></abbr><expan resp="#BE" cert="high">Dans</expan></choice> ce <term target="#g12">sens</term>, par <choice><abbr>ex<am>.</am></abbr><expan resp="#BE" cert="high">exemple</expan></choice>, <del rend="overstrike" unit="word" atLeast="6" instant="true"><gap reason="cancelled" unit="word" quantity="1"/>
+        					<lb n="45" break="yes"/>
+        					<gap reason="cancelled" unit="word" atLeast="5"/></del> le grec est 
+        					<lb n="46" break="yes"/>
+        					une langue <choice><abbr><am>+</am></abbr><expan resp="#BE" cert="high">plus</expan></choice> vieille que le latin pris à la 
+        					<lb n="47" break="yes"/>
+        					même <term target="#g9"><choice><abbr>époq<am>.</am></abbr><expan resp="#BE" cert="high">époque</expan></choice></term> - elle s'est moins éloignée du type 
+        					<lb n="48" break="yes"/>
+        					primitif <term target="#g11"><choice><abbr>indo-eur<am>.</am></abbr><expan resp="#BE" cert="high">indo-européen</expan></choice></term>. Le sanscrit est <choice><abbr><am>+</am></abbr><expan resp="#BE" cert="high">plus</expan></choice> vieux, 
+        					<lb n="49" break="yes"/>
+        					mieux préservé, que cert<ex resp="#BE" cert="high">ai</ex><hi rend="underline">nes</hi> au<ex resp="#BE" cert="high">tres</ex>.
+        				</ab>
+        			</div>
+        			<div n="7" type="paragraph">
+        				<ab xml:id="per17" n="17" facs="#facsp17" type="pericope">
+        					<lb n="50" break="yes"/>
+        					En opposant <choice><abbr>d<am rend="sup">s</am></abbr><expan resp="#BE" cert="high">dans</expan></choice> <date type="conference" notBefore="1891-11-13">notre prochain<ex resp="#BE" cert="high">e</ex> séance</date>
+        					<lb n="51" break="yes"/>
+        					le principe de <term target="#g13">mouvement</term> au principe d'<term target="#g14 #nota4">inertie</term> 
+        					<lb n="52" break="yes"/>
+        					que <gap reason="missing" extent="rest of the line"/> 
+        					<lb n="53" break="yes"/>
+        					<choice><abbr>ns</abbr><expan resp="#BE" cert="high">nous</expan></choice> aurons <gap reason="missing" extent="rest of the line"/>
+        				</ab>
+        			</div>
+        		</body>
+                <back>
+                    <!--LISTA DEL GLOSSARIO-->
+                    <list type="gloss">
+                        <head>Elementi terminologici</head>
+                        <label>Mot</label>
+                        <item>
+                            <gloss xml:id="g1" target="https://raw.githubusercontent.com/angelodel80/corsoCodifica/master/CTaa20-21/progetto-esame/Ontology_F_d_S.owl">Unité complexe mentale et physiologique de la langue ; membre de la phrase, unité centrale, la plus fortement délimitée qui soit ; fondée sur la valeur et sur l’identité par la valeur ; l'unité d’un mot ne vaut, à tout moment, que par opposition aux autres unités semblables ; chaque mot est l'intersection du point de vue diachronique et synchronique (Engler, 35) (Godel, 269)</gloss>
+                        </item>
+                        <label>Langue</label>
+                        <item>
+                            <gloss xml:id="g2" target="https://raw.githubusercontent.com/angelodel80/corsoCodifica/master/CTaa20-21/progetto-esame/Ontology_F_d_S.owl">instrument sémiologique permettant au langage de se manifester dans la parole ; code social organisant le langage et formant l’outil nécessaire à l’exercice de la faculté du langage, (Engler, 31) ; ensemble des conventions nécessaires adoptées par le corps social pour permettre l'usage de la faculté du langage chez les individus. Institution unique en son genre, par les caractères qui font qu'elle est solidaire du passé. La langue est un système de signaux, de signes. Système de signes reposant sur des images acoustiques, où les deux parties du signe sont psychiques. Sommes des signes évocables. Système de valeurs. (Godel, 266)</gloss>
+                        </item>
+                        <label>Temps</label>
+                        <item>
+                            <gloss xml:id="g3" target="https://raw.githubusercontent.com/angelodel80/corsoCodifica/master/CTaa20-21/progetto-esame/Ontology_F_d_S.owl">Moment, époque occupant une place déterminée dans la suite des événements ou caractérisée par quelque chose</gloss>
+                        </item>
+                        <label>Distinguer</label>
+                        <item>
+                            <gloss xml:id="g4" target="https://raw.githubusercontent.com/angelodel80/corsoCodifica/master/CTaa20-21/progetto-esame/Ontology_F_d_S.owl">Reconnaître, différencier quelque chose ou quelqu'un en percevant les caractéristiques qui font sa spécificité</gloss>
+                        </item>
+                        <label>Arbitraire</label>
+                        <item>
+                            <gloss xml:id="g5" target="https://raw.githubusercontent.com/angelodel80/corsoCodifica/master/CTaa20-21/progetto-esame/Ontology_F_d_S.owl">Conventionnel, libre (Engler, 13). Qualifie proprement, l'association du signifié et du signifiant, donc le signe ( ) ;(Godel, 254)</gloss>
+                        </item>
+                        <label>Différenciation</label>
+                        <item>
+                            <gloss xml:id="g6" target="https://raw.githubusercontent.com/angelodel80/corsoCodifica/master/CTaa20-21/progetto-esame/Ontology_F_d_S.owl">Action de différencier des êtres ou des choses ou fait pour des choses ou des êtres de se différencier</gloss>
+                        </item>
+                        <label>Géographique</label>
+                        <item>
+                            <gloss xml:id="g7" target="https://raw.githubusercontent.com/angelodel80/corsoCodifica/master/CTaa20-21/progetto-esame/Ontology_F_d_S.owl">Relatif à la géographie</gloss>
+                        </item>
+                        <label>Parler</label>
+                        <item>
+                            <gloss xml:id="g8" target="https://raw.githubusercontent.com/angelodel80/corsoCodifica/master/CTaa20-21/progetto-esame/Ontology_F_d_S.owl">Dire quelque chose à quelqu'un, lui exprimer sa pensée au sujet de quelque chose ou de quelqu'un, faire un discours portant sur tel point</gloss>
+                        </item>
+                        <label>Époque</label>
+                        <item>
+                            <gloss xml:id="g9" target="https://raw.githubusercontent.com/angelodel80/corsoCodifica/master/CTaa20-21/progetto-esame/Ontology_F_d_S.owl">Point du temps, opposé à période (espace de temps). Cf. époque des Antonins : « on se permet d'employer le mot opposé (époque) comme synonyme (de période) parce que l'ensemble des caractères n'a pas changé pendant ce temps » 1680 ; d'où : époque de langue = état (Engler, 22)</gloss>
+                        </item>
+                        <label>Langage</label>
+                        <item>
+                            <gloss xml:id="g10" target="https://raw.githubusercontent.com/angelodel80/corsoCodifica/master/CTaa20-21/progetto-esame/Ontology_F_d_S.owl">Système particulier de symboles indépendants ; langue (Engler, 30) ; langue et langage ne sont qu'une même chose ; l'un est la généralisation de l'autre (Godel, 266 ; N1.1)</gloss>
+                        </item>
+                        <label>Indo-européen</label>
+                        <item>
+                            <gloss xml:id="g11" target="https://raw.githubusercontent.com/angelodel80/corsoCodifica/master/CTaa20-21/progetto-esame/Ontology_F_d_S.owl">N.m. Langue non directement attestée mais reconstituée par comparaison des diverses langues à l'origine desquelles elle se trouve. Adj. Se dit des langues issues de l'indo-européen.</gloss>
+                        </item>
+                        <label>Sens</label>
+                        <item>
+                            <gloss xml:id="g12" target="https://raw.githubusercontent.com/angelodel80/corsoCodifica/master/CTaa20-21/progetto-esame/Ontology_F_d_S.owl">Signification telle qu'elle est représentée par le signifié mais qui dépend en dernière analyse d'un rapport de valeurs entre termes ; voir signification (Engler, 45) (Godel, 276)</gloss>
+                        </item>
+                        <label>Mouvement</label>
+                        <item>
+                            <gloss xml:id="g13" target="https://raw.githubusercontent.com/angelodel80/corsoCodifica/master/CTaa20-21/progetto-esame/Ontology_F_d_S.owl">Déplacement d'un corps, changement de position dans l'espace</gloss>
+                        </item>
+                        <label>Inertie</label>
+                        <item>
+                            <gloss xml:id="g14" target="https://raw.githubusercontent.com/angelodel80/corsoCodifica/master/CTaa20-21/progetto-esame/Ontology_F_d_S.owl">Propriété de la matière qui fait que les corps ne peuvent d'eux-mêmes modifier leur état de mouvement.</gloss>
+                        </item>
+                    </list>
+
+                    <!--LISTA DELLE NOTE-->
+                    <list type="notes">
+                        <head>Note</head>
+                        <label>Arbitraire</label>
+                        <item>
+                            <gloss xml:id="nota1" resp="#EF" target="https://github.com/angelodel80/corsoCodifica/blob/master/CTaa20-21/progetto-esame/Testi%20FdS_IT-Prolusioni%2BLettera%20a%20G.%20Paris%20(E.%20Fadda).pdf">Qui 'arbitrario' è nel senso banale, ma ha in nuce un po' del senso 'tecnico', in quanto in fondo il parlante e il linguista compiono la medesima operazione di delimitazione arbitraria – ma il linguista, per mestiere, sarebbe tenuto ad essere cosciente dell'arbitrarietà di tali distinzioni.</gloss>
+                        </item>
+                        <label>Ancien</label>
+                        <item>
+                            <gloss xml:id="nota2" resp="#EF" target="https://github.com/angelodel80/corsoCodifica/blob/master/CTaa20-21/progetto-esame/Testi%20FdS_IT-Prolusioni%2BLettera%20a%20G.%20Paris%20(E.%20Fadda).pdf">Qui una qualche difficoltà per chi traduce è data dal fatto che gli elementi della serie quasi-sinonimica francese vieux, ancien, agé (e proprio questo termine – il primo che ci si aspetterebbe parlando di età – è assente, non a caso, nel testo francese di Saussure) non si ripartiscono il campo in maniera analoga a quelli della serie quasi-sinonimica italiana vecchio, anziano, antico. Il lettore dovrà dunque riportare su ancien almeno un po' della connotazione "antico".</gloss>
+                        </item>
+                        <label>Indo-européenne</label>
+                        <item>
+                            <gloss xml:id="nota3" resp="#EF" target="https://github.com/angelodel80/corsoCodifica/blob/master/CTaa20-21/progetto-esame/Testi%20FdS_IT-Prolusioni%2BLettera%20a%20G.%20Paris%20(E.%20Fadda).pdf">Viene ribadita quasi alla nausea l'idea di una continuità ininterrotta del parler, tale che in essa ogni taglio che si voglia operare ha la stessa ragion d'essere (cioè: nessuna). Qui Saussure affronta il problema dell'origine del linguaggio, per metterlo da parte.</gloss>
+                        </item>
+                        <label>Inertie</label>
+                        <item>
+                            <gloss xml:id="nota4" resp="#EF" target="https://github.com/angelodel80/corsoCodifica/blob/master/CTaa20-21/progetto-esame/Testi%20FdS_IT-Prolusioni%2BLettera%20a%20G.%20Paris%20(E.%20Fadda).pdf">Si tratta, rispettivamente, dell'immutabilità e della mutabilità del segno che formano l'oggetto del capitolo del CLG [...]. Assumendo come punto di vista la dimensione diatopica, i due principi corrisponderebbero rispettivamente alla force d'intercourse e all'esprit de clocher di cui si parla nel capitolo del CLG dedicato alla linguistica geografica.</gloss>
+                        </item>
+                    </list>
+
+                    <!--LISTA DELLE PERSONE-->
+                    <listPerson type="person">
+                        <head>Persone nominate</head>
+                        <person xml:id="Arminius"> 
+                            <persName> 
+                                <forename>Arminius</forename>
+                            </persName>
+                            <sex>M</sex>
+                            <birth>
+                                <date when="18 B.C.">18 av. J.-C.</date>
+                                <placeName>
+                                    <settlement type="near river">Weser</settlement>
+                                    <country key="DE">Germanie</country>
+                                </placeName>
+                            </birth>
+                            <death>
+                                <date when="19 A.D.">19 apr. J.-C</date>
+                                <placeName>
+                                    <settlement type="unknown"/>
+                                    <country key="DE">Germanie</country>
+                                </placeName>
+                            </death>
+                        </person>
+                    </listPerson>
+                </back>
+        	</text>
+
+            <!--TESTO TRADUZIONE-->
+            <text type="traslation" resp="#EF"> 
+                <body>
+                    <!--PAGINA 29-->
+                    <ab xml:id="trad1" facs="#facsp1">
+                        Rispondo che in questo caso invece si gioca su un’altra parola, che è la parola lingua;
+                    </ab>
+                    <ab xml:id="trad2" facs="#facsp2">   
+                        in realtà la lingua non è affatto un essere delimitato e definito nel tempo;
+                    </ab>
+                    <ab xml:id="trad3" facs="#facsp3">
+                        si distinguono la lingua francese e la lingua latina, il tedesco moderno e il germanico di Arminio come si distingue [ ] e allora si ammette che l’uno comincia e che l’altro finisce da qualche parte, il che è arbitrario.
+                    </ab>
+                    <ab xml:id="trad4" facs="#facsp4">
+                        Tuttavia c’è un aspetto di tale questione che riguarda la differenziazione geografica delle lingue, e che io non affronto ora.
+                    </ab>
+                    <ab xml:id="trad5" facs="#facsp5">
+                        Dal momento che non si può fare nascere una lingua da nessuna parte, ci chiediamo qual è dunque l’età che si assegna a ciascuna di esse.
+                    </ab>
+                    <ab xml:id="trad6" facs="#facsp6">
+                        Qui, ancora una volta, bisogna intendersi sulle parole. Si fanno confusioni singolari sulla parola vecchio parlando delle lingue.
+                    </ab>
+                    <ab xml:id="trad7" facs="#facsp7">
+                        Ci sono tre maniere per un uomo di essere più vecchio o più anziano di un altro.
+                    </ab>
+                    <ab xml:id="trad8" facs="#facsp8">
+                        La prima, che non è sempre piacevole, è d’essere nato prima di lui.
+                    </ab>
+                    <ab xml:id="trad9" facs="#facsp9">
+                        La seconda, ancora meno piacevole, è d’essere morto prima di lui: stiamo parlando dei vecchi compagni che non ci sono più.
+                    </ab>
+                    <ab xml:id="trad10" facs="#facsp10">
+                        La terza, che è la peggiore, è d’essere – come diciamo familiarmente – peggio conservato di lui.
+                    </ab>
+                    <ab xml:id="trad11" facs="#facsp11">
+                        Ebbene, di queste tre maniere la prima non esiste per le lingue. Tutte le lingue che si parlano a una stessa epoca hanno la stessa età; nel senso che esse risalgono a un uguale passato.
+                    </ab>
+                    <ab xml:id="trad12" facs="#facsp12">
+                        Non è necessario determinare la lunghezza di tale passato. Se vogliamo, è l’origine del linguaggio, ma senza risalire a periodi inaccessibili.
+                    </ab>
+                    <!--PAGINA 30-->
+                    <ab xml:id="trad13" facs="#facsp13">
+                        Fermandosi al periodo accessibile, è chiaro che ogni lingua indoeuropea parlata attualmente ha esattamente la stessa età in rapporto al tempo in cui si parlava l’indoeuropeo.
+                    </ab>
+                    <ab xml:id="trad14" facs="#facsp14">
+                        Non mi soffermo sul secondo senso in cui una lingua sarebbe più vecchia di un’altra, che non ha grande importanza; vi sono lingue morte e che di conseguenza si possono chiamare antiche, per esempio il gallo, il fenicio, ecc., che sono state estirpate.
+                    </ab>
+                    <ab xml:id="trad15" facs="#facsp15">
+                        Infine bisogna notare che nel terzo senso si può dire che una lingua è più vecchia di un’altra ma, cosa assai bizzarra, per le lingue accade il contrario: sono le lingue meglio conservate che vengono chiamate vecchie.
+                    </ab>
+                    <ab xml:id="trad16" facs="#facsp16">
+                        In questo senso, per esempio, il greco è una lingua più vecchia del latino preso alla stessa epoca, si è allontanata meno dal tipo primitivo dell’indoeuropeo. Il sanscrito è più vecchio, meglio preservato, di certe altre lingue.
+                    </ab>
+                    <ab xml:id="trad17" facs="#facsp17">
+                        Nella nostra prossima seduta, opponendo il principio di movimento al principio di inerzia che [ ] avremo [ ].
+                    </ab>
+                </body>
+            </text>
+        </group>
+    </text>
+
+    <facsimile>
+        <surface>
+            <!--PAGINA 29-->
+            <figure n="1">
+                <graphic url='p29.jpg' width='4032px' height='5244px' />
+                <figDesc>Pagina 29 del manoscritto</figDesc>
+                <head>Pagina 29</head>
+            </figure>
+            <!--per1-->
+            <!--<zone xml:id="facsp1" points="837,512,822,866,2616,896,2616,713,3738,725,3732,512"/>-->
+            <zone xml:id="facsp1" points="129,79,126,133,402,138,402,110,575,112,574,79"/>
+            <!--per2-->
+            <!--<zone xml:id="facsp2" points="2625,689,3696,704,3699,1037,2340,1052,2334,1223,810,1214,843,866,2616,869"/>-->
+            <zone xml:id="facsp2" points="404,106,569,108,569,159,360,162,359,188,125,187,130,133,402,134"/>
+            <!--per3-->
+            <!--<zone xml:id="facsp3" points="2349,1028,3735,1043,3738,1730,942,1760,918,2774,267,2798,294,1208,2331,1226"/>-->
+            <zone xml:id="facsp3" points="361,158,577,160,575,266,145,271,141,427,41,430,45,186,359,189"/>
+            <!--per4-->
+            <!--<zone xml:id="facsp4" points="939,1739,933,2249,3603,2216,3585,1724"/>-->
+            <zone xml:id="facsp4" points="144,268,144,346,554,341,552,265"/>
+            <!--per5-->
+            <!--<zone xml:id="facsp5" points="954,2297,3735,2255,3741,2534,3441,2540,3453,2702,957,2819"/>-->
+            <zone xml:id="facsp5" points="157,353,575,347,575,390,536,393,531,416,147,434"/>
+            <!--per6-->
+            <!--<zone xml:id="facsp6" points="3456,2537,3759,2543,3762,2837,2355,2879,2361,3077,1071,3131,1053,3371,270,3416,300,2780,3456,2696"/>-->
+            <zone xml:id="facsp6" points="532,390,578,391,579,436,362,443,363,473,165,482,162,519,42,526,44,430,534,419"/>
+            <!--per7-->
+            <!--<zone xml:id="facsp7" points="2373,2858,3798,2834,3801,3170,1038,3278,1047,3122,2373,3041"/>-->
+            <zone xml:id="facsp7" points="365,440,584,436,585,488,160,504,161,480,365,467"/>
+            <!--per8-->
+            <!--<zone xml:id="facsp8" points="1047,3257,3729,3179,3729,3335,1644,3416,1650,3578,1041,3617"/>-->
+            <zone xml:id="facsp8" points="161,501,574,489,574,513,253,526,254,550,160,556"/>
+            <!--per9-->
+            <!--<zone xml:id="facsp9" points="1662,3395,3723,3293,3729,3641,1671,3752,1680,3908,1041,3941,1050,3632,1665,3575"/>-->
+            <zone xml:id="facsp9" points="255,522,572,506,574,560,275,577,258,601,160,606,160,559,256,550"/>
+            <!--per10-->
+            <!--<zone xml:id="facsp10" points="1686,3728,3708,3632,3714,3779,3276,3800,3294,3980,1053,4115,1062,3929,1686,3878"/>-->
+            <zone xml:id="facsp10" points="259,574,570,559,571,581,504,584,507,612,162,633,163,604,259,596"/>
+            <!--per11-->
+            <!--<zone xml:id="facsp11" points="3276,3782,3714,3788,3699,4481,1770,4559,1767,4724,1104,4769,1065,4085,3294,3965"/>-->
+            <zone xml:id="facsp11" points="504,582,571,583,569,689,272,701,271,726,169,734,164,628,506,610"/>
+            <!--per12-->
+            <!--<zone xml:id="facsp12" points="1767,4547,3765,4472,3783,4949,1095,4976,1104,4745,1776,4718"/>-->
+            <zone xml:id="facsp12" points="272,700,579,688,582,781,168,785,170,730,273,726"/>
+
+        </surface>
+
+        <surface>
+            <!--PAGINA 30-->
+            <figure n="2">
+                <graphic url='p30.jpg' width='4032px' height='5274px' />
+                <figDesc>Pagina 30 del manoscritto</figDesc>
+                <head>Pagina 30</head>
+            </figure>
+            <!--per13-->
+            <!--<zone xml:id="facsp13" points="966,484,3693,502,3678,1225,954,1240"/>-->
+            <zone xml:id="facsp13" points="149,74,568,77,566,188,157,191"/>
+            <!--per14-->
+            <!--<zone xml:id="facsp14" points="975,1240,3732,1246,3723,2407,969,2524"/>-->
+            <zone xml:id="facsp14" points="150,191,574,192,573,370,149,388"/>
+            <!--per15-->
+            <!--<zone xml:id="facsp15" points="984,2506,3726,2419,3711,3250,2283,3271,2289,3448,954,3514"/>-->
+            <zone xml:id="facsp15" points="151,385,573,372,571,500,351,503,352,530,147,540"/>
+            <!--per16-->
+            <!--<zone xml:id="facsp16" points="2298,3271,3681,3250,3642,4222,1050,4312,1050,3502,2286,3457"/>-->
+            <zone xml:id="facsp16" points="353,503,566,500,560,649,161,663,161,538,352,532"/>
+            <!--per17-->
+            <!--<zone xml:id="facsp17" points="1035,4312,3642,4237,3666,4960,1035,4966"/>-->
+            <zone xml:id="facsp17" points="159,663,560,651,564,783,159,784"/>
+
+        </surface>
+    </facsimile>
+
+</TEI>
